@@ -1,0 +1,11 @@
+:root{
+	--accentCol:#00F0C5;
+	--darkCol:black;
+	--lightCol:white;
+	--black: black;
+	--white:white;
+
+	--mainFont:monospace;
+
+	--navSpeed: 200ms;
+}
