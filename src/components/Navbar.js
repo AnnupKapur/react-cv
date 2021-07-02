@@ -4,7 +4,6 @@ import '../styles/navStyle.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHandSpock, faUserCircle, faCode, faFolderOpen, faUniversity, faAddressCard} 
 	from '@fortawesome/free-solid-svg-icons'
-import { importDefaultSpecifier } from '@babel/types'
 
 
 
@@ -13,12 +12,14 @@ const Navbar = () => {
 		<div className="nav-container">
 			<ul className="nav-bar">
 
+			<a href="#welcome">
 				<li className="nav-item">
 					<span className="nav-icon">
 						<FontAwesomeIcon icon={faHandSpock} />
 					</span>
 					<span className="nav-text">Welcome</span>
 				</li>
+			</a>
 
 				<li className="nav-item">
 					<span className="nav-icon">

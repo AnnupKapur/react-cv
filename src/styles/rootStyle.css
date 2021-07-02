@@ -1,5 +1,6 @@
 :root{
-	--accentCol:#00F0C5;
+	--majorAccentCol:#00F0C5;
+	--minorAccentCol:red;
 	--darkCol:black;
 	--lightCol:white;
 	--black: black;
@@ -8,4 +9,5 @@
 	--mainFont:monospace;
 
 	--navSpeed: 200ms;
+	--navBarHeight:3.5rem;
 }
