@@ -21,11 +21,13 @@ const Navbar = () => {
 				</li>
 			</a>
 
+			<a href="#aboutMe">
 				<li className="nav-item">
 					<span className="nav-icon">
 						<FontAwesomeIcon icon={faUserCircle} /></span>
 					<span className="nav-text">About Me</span>
 				</li>
+			</a>
 
 				<li className="nav-item">
 					<span className="nav-icon">

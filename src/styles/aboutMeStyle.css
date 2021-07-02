@@ -1,0 +1,53 @@
+.aboutMe-container{
+	justify-content: flex-start;
+	background-color: var(--darkCol);
+}
+
+.about-content{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	width: 50%;
+	min-height: 10rem;
+	padding:0 0 5rem 0;
+}
+
+.about-header{
+	justify-content: center;
+	padding: 6rem 0;
+}
+
+.about-content h3{
+	font-family: var(--mainFont);
+	font-size: 1.5em;
+	font-weight: 300;
+	color: var(--lightCol);
+	position: relative;
+	color: var(--white);
+	background-color: var(--black);
+	padding:2rem;
+	text-shadow: 1px 1px 0px var(--minorAccentCol);
+	transform: rotateZ(-1deg);
+}
+
+.about-content p{
+	color: var(--lightCol);
+	font-family: var(--mainFont);
+	padding:1em 0;
+} 
+
+.about-content p:first-of-type{
+	padding:5em 0 1em 0;
+}
+
+.citation{
+	color:var(--white);
+	position: relative;
+	background-color: red;
+	left: 10rem;
+	top:-0.3rem;
+	transform: rotateZ(2deg);
+	padding: 0.5em 1em;
+	font-family: var(--mainFont);
+}

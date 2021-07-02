@@ -1,7 +1,7 @@
 :root{
 	--majorAccentCol:#00F0C5;
 	--minorAccentCol:red;
-	--darkCol:black;
+	--darkCol:hsla(0,0%,10%,1);
 	--lightCol:white;
 	--black: black;
 	--white:white;
@@ -10,4 +10,47 @@
 
 	--navSpeed: 200ms;
 	--navBarHeight:3.5rem;
+}
+
+.page-section{
+	min-height: 100vh;
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+}
+
+.section-header{
+	width: 100vw;
+	padding: 0;
+	font-family: var(--mainFont);
+	color: var(--white);
+	margin-top:var(--navBarHeight);
+	display: flex;
+	flex-direction: row;
+	font-size: 1.3em;
+	margin:calc(var(--navBarHeight) + 2rem) 0 3rem 0;
+}
+
+.section-header h1{
+	position: relative;
+	display: inline-block;
+	font-weight: 300;
+}
+
+.header-code-start{
+	display: inline-block;
+	color: var(--minorAccentCol);
+	font-size: 2em;
+	padding:0 1em 0 0;
+}
+
+.header-code-end{
+	display: inline-block;
+	color: var(--minorAccentCol);
+	font-size: 2em;
+	padding:0 0 0 1em;
 }

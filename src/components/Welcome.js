@@ -1,13 +1,10 @@
 import React from 'react'
 import '../styles/rootStyle.css'
 import '../styles/welcomeStyle.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faHandSpock, faUserCircle, faCode, faFolderOpen, faUniversity, faAddressCard} 
-	from '@fortawesome/free-solid-svg-icons'
 
 const Welcome = () => {
 	return (
-		<div className="welcome-container">
+		<div className="welcome-container page-section" id="welcome">
 			<div className="welcome-hero">
 				<span className="code-start">&lt; </span>
 				<h1>Mr Annup Raj Kapur</h1>
