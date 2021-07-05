@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/rootStyle.css'
 import '../styles/aboutMeStyle.css'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const AboutMe = () => {
 	return (
@@ -21,7 +20,7 @@ const AboutMe = () => {
 					Since the moment I wrote my first lines of HTML code in Notepad on a Windows XP desktop PC at the age of 14, I was captivated, and wanted to be a part of this revolution.
 				</p>
 				<p>
-					Upon gaining a degree in Computer Science, I started my own coding and maths academy, with special focus on educting children from deprived background, imparting them with skills which will last them a lifetime.
+					Upon gaining a degree in Computer Science, I started my own coding and maths academy, growing to a turnover of £1million within 5 years.
 				</p>
 				<p>
 					All the while, still offering my developer services on a freelance basis, working on both small individual builds and larger team based projects, creating websites, apps, databases, writing algorithms for machine learning and much more.

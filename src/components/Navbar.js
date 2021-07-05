@@ -29,17 +29,21 @@ const Navbar = () => {
 				</li>
 			</a>
 
+			<a href="#skills">
 				<li className="nav-item">
 					<span className="nav-icon">
 						<FontAwesomeIcon icon={faCode} /></span>
 					<span className="nav-text">Skills</span>
 				</li>
+			</a>
 
+			<a href="#projects">
 				<li className="nav-item">
 					<span className="nav-icon">
 						<FontAwesomeIcon icon={faFolderOpen} /></span>
 					<span className="nav-text">Projects</span>
 				</li>
+			</a>
 
 				<li className="nav-item">
 					<span className="nav-icon">

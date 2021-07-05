@@ -35,6 +35,7 @@
 	color: var(--lightCol);
 	font-family: var(--mainFont);
 	padding:1em 0;
+	font-size: 1.4em;
 } 
 
 .about-content p:first-of-type{
