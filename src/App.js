@@ -5,6 +5,9 @@ import Welcome from './components/Welcome';
 import AboutMe from './components/AboutMe';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import UnderDev from './components/UnderDev';
+
+import Profile from './components/Profile';
 
 function App() {
 
@@ -46,14 +49,22 @@ function App() {
     ]
   )
 
+  const [isDev] = useState(
+    true);
+    
+  let output = '';
+  
+  if (isDev===true){
+      output = <UnderDev />
+    }
+  else{
+    output = <Profile mySkills={mySkills} />
+  }
+
 
   return (
     <div className="App">
-      <Navbar />
-      <Welcome />
-      <AboutMe />
-      <Skills mySkills={mySkills}/>
-      <Projects />
+      {output}
     </div>
   );
 }
