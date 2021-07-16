@@ -1,10 +1,5 @@
 import { useState } from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
-import Welcome from './components/Welcome';
-import AboutMe from './components/AboutMe';
-import Skills from './components/Skills';
-import Projects from './components/Projects';
 import UnderDev from './components/UnderDev';
 
 import Profile from './components/Profile';
