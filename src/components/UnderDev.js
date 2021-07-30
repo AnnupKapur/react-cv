@@ -9,7 +9,7 @@ const UnderDev = () => {
 				<h2>I hope to have all this complete by</h2>
 				<div className="timed"><p>August 2021</p></div>
 				<h3>Here is a cool game which I made for you to play in the meantime</h3>
-				<p>Click on the board to start. Then use your keyboard arrow keys to control the snake towards each highlighted food square without biting your own tail. Good Luck!</p>
+				<p>Click on the board to start. Then use your keyboard arrow keys to control the snake towards each highlighted food square without biting your own tail. Good Luck and have fun!</p>
 				<div className="game"><Codepen user="AnnupKapur" hash="YzVVGvv" /></div>
 				<div className="bye-container">
 					<div className="bye">See you soon</div>
