@@ -8,7 +8,7 @@ const UnderDev = () => {
 				<h1>My portfolio site is currently going through some much needed updates</h1>
 				<h2>I hope to have all this complete by</h2>
 				<div className="timed"><p>August 2021</p></div>
-				<h3>In the meantime, here is a cool game which I made for you to play in the meantime</h3>
+				<h3>Here is a cool game which I made for you to play in the meantime</h3>
 				<p>Click on the board to start. Then use your keyboard arrow keys to control the snake towards each highlighted food square without biting your own tail. Good Luck!</p>
 				<div className="game"><Codepen user="AnnupKapur" hash="YzVVGvv" /></div>
 				<div className="bye-container">
